@@ -1,19 +1,10 @@
-.yet
-{ 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-.test {
-  background-color: red;
-}
 .page {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .content {
   max-width: 830px;
   width: 100%;
@@ -22,7 +13,8 @@
   border: 2px solid white;
   padding: 15px;
 }
-.head {
+
+.header {
   border: 2px solid white;
   padding: 10px;
   margin-bottom: 15px;
@@ -36,7 +28,7 @@
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 40px;
-} 
+}
 
 .form {
   display: flex;
@@ -66,47 +58,47 @@
 
 .left-list,
 .right-list {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    min-height: 200px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-height: 200px;
 }
 
 .left-list,
 .right-column {
-    padding: 15px 10px;
-    border: 2px solid white;
+  padding: 15px 10px;
+  border: 2px solid white;
 }
 
 .left-list {
-    align-items: center;
-    justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .right-list {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .word-block {
-    max-width: 110px;
-    width: 100%;
-    text-align: center;
-    background-color: #c7c1c1;
-    cursor: grab;
+  max-width: 110px;
+  width: 100%;
+  text-align: center;
+  background-color: #c7c1c1;
+  cursor: grab;
 }
 
 .word-block div {
-    padding: 5px 8px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+  padding: 5px 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .empty-block {
-    height: 28.5px;
-}   
+  height: 28.5px;
+}
