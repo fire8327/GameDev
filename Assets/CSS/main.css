@@ -1,6 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Обнуление CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    /* Базовый размер шрифта 16px */
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    /* Для корректного отображения на мобильных устройствах */
+    scroll-behavior: smooth;
+    /* Плавная прокрутка */
+}
+
 body {
     font-family: "Roboto", serif;
     font-style: normal;
+    margin: 0;
 }
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    /* Наследование шрифта от родителя */
+}
+
+button {
+    all: unset;
+    /* Убирает все дефолтные стили */
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    /* Убирает подчеркивание */
+    color: inherit;
+    /* Наследует цвет текста */
+}
+
+ul,
+ol {
+    list-style: none;
+    /* Убирает маркеры списка */
+}
+

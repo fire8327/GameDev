@@ -141,7 +141,7 @@ function dragOverTargetList(event) {
 }
 
 function displaySentence() {
-    const headerElement = document.querySelector(".header");
+    const headerElement = document.querySelector(".header-form");
     headerElement.innerHTML = "";
 
     const blocks = document.querySelectorAll("[data-block='target-list']");
@@ -155,7 +155,7 @@ function displaySentence() {
 }
 
 function resetBoard() {
-    const headerElement = document.querySelector(".header");
+    const headerElement = document.querySelector(".header-form");
     headerElement.innerHTML = "";
     targetList.innerHTML = "";
     initialList.innerHTML = "";
